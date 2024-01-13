@@ -20,11 +20,12 @@ body {
 
 #display {
   width: 100%;
-  padding: 20px;
-  font-size: 60px;
+  padding: 10px;
+  font-size: 70px;
   border: none;
   outline: none;
-  text-align: right;
+  text-align: left;
+  color: white;
   background-color: hsl(0, 0%, 20%);
 }
 
@@ -41,7 +42,6 @@ button {
   border-radius: 50%;
   border: none;
   background-color: hsl(0, 0%, 30%);
-  opacity: 70%;
   color: white;
   font-size: 40px;
   font-weight: bold;
