@@ -68,3 +68,25 @@ button:active {
 #specialKey:active {
   background-color: hsl(35, 100%, 75%);
 }
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.zero-btn {
+  width: 190px;
+  border-radius: 50px;
+  text-align: left;
+  padding-left: 35px;
+}
+
+.bottom-btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.top-btn {
+  background-color: hsl(0, 0%, 60%);
+}
